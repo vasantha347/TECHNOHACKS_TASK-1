@@ -1,0 +1,98 @@
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+}
+h1{
+    text-align: top;
+    margin-bottom: 50%;
+    font-family: Cambria, Cochin ,Georgia, Times, 'Times New Roman',serif;
+    color:  gold;
+}
+body{
+    background-image: linear-gradient(to bottom right, #197839, #0862ea);
+    display: grid;
+    height: 100vh;
+    place-items: center;
+}
+.main{
+    width: 400px;
+    height: 450px;
+    background-color:  #1a1a1a;
+    position: absolute;
+    border: 5px solid  gray;
+    border-radius: 6px;
+}
+.main input[type='text'] {
+    width: 88%;
+    position: relatives;
+    height: 80px;
+    top: 5px;
+    text-align: right;
+    padding: 3px 6px;
+    outline: none;
+    font-size: 40px;
+    border: 5px solid  gray;
+    background-color:  black;
+    display: flex;
+    margin: auto;
+    border-radius: 6px;
+    color:  white;
+}
+.btn input[type='button']:not(.extra):not(.extra){
+    width:90px;
+    padding: 2px;
+    margin: 2px 0px;
+    position: realtive;
+    left: 13px;
+    top: 20px;
+    height: 60px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.5s;
+    background-color:  #1a1aff;
+    border-radius: 6px;
+    color:  white;
+}
+.btn input[type='button']:hover:not(.extra):not(.extra1){
+    background-color: #00e6e6;
+    color:  #1a1a1a;
+}
+.extra{
+    width:90px;
+    padding: 2px;
+    margin: 2px 0px;
+    position: relative;
+    left: 13px;
+    top: 20px;
+    height: 60px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.5s;
+    background-color:  #660066;
+    border-radius: 6px;
+    color:  #e6e600;
+}
+.extra:hover{
+    background-color:  #4dff4d;
+    color:  black;
+}
+.extra1{
+    width:90px;
+    padding: 2px;
+    margin: 2px 0px;
+    position: relative;
+    left: 13px;
+    top: 20px;
+    height: 60px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.5s;
+    background-color:  #ff0000;
+    border-radius: 6px;
+    color:  #e6e600;
+}
+.extra1:hover{
+    background-color:  yellow;
+    color:  black; 
+    
